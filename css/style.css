@@ -1,0 +1,1761 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: 0;
+}
+
+body {
+    background: #fff;
+}
+
+html {
+
+}
+
+.clear {
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url("../fonts/Montserrat-Bold.ttf");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url("../fonts/Montserrat-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url("../fonts/Roboto-Light.ttf");
+    font-weight: 300;
+    font-style: normal;
+}
+
+#wrapper {
+    margin: 0 auto;
+}
+
+#promo {
+    margin: 0 auto;
+}
+
+#header {
+    margin: 0 auto;
+    max-width: 1440px;
+    height: 700px;
+    background: url("../images/bg.png") #1a1915 top center no-repeat;
+}
+
+#text1 {
+    font: bold 20px Montserrat;
+    color: #fff;
+    margin-top: 46px;
+    margin-left: 203px;
+    letter-spacing: 1px;
+    float: left;
+}
+
+#auth {
+    width: 160px;
+    height: 40px;
+    margin-top: 38px;
+    margin-right: 206px;
+    float: right;
+    display: block;
+}
+
+#login {
+    font: bold 14px Montserrat;
+    color: #fff;
+    margin-top: 9px;
+    margin-left: 8px;
+    float: left;
+}
+
+#login a {
+    font: bold 14px Montserrat;
+    color: #fff;
+}
+
+#signup {
+    width: 86px;
+    height: 32px;
+    border: 2px solid #fff;
+    border-radius: 32px;
+    -webkit-border-radius: 32px;
+    -moz-border-radius: 32px;
+    -khtml-border-radius: 32px;
+    font: bold 14px Montserrat;
+    color: #fff;
+    float: right;
+    display: table;
+}
+
+#signup a {
+    font: bold 14px Montserrat;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+#holidayblock {
+    width: 488px;
+    height: 242px;
+    left: 50%;
+    position: absolute;
+    margin-left: -245px;
+    margin-top: 215px;
+}
+
+#text2 {
+    font: bold 52px Montserrat;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#text3 {
+    font: bold 24px Roboto;
+    color: #fff;
+    text-align: center;
+    font-weight: 300;
+    font-style: normal;
+}
+
+#text3 p {
+    margin-top: 22px;
+    margin-bottom: 30px;
+}
+
+#buttonfind {
+    width: 228px;
+    height: 40px;
+    margin: 0 auto;
+    background: #ff4e50;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -khtml-border-radius: 40px;
+    font: bold 14px Montserrat;
+    color: #fff;
+    display: table;
+}
+
+#buttonfind a {
+    font: bold 14px Montserrat;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+#content {
+    width: 960px;
+    margin: 0 auto;
+}
+
+#content h2 {
+    font: bold 22px Montserrat;
+    color: #333333;
+    text-align: center;
+}
+
+#howitworks {
+    margin-top: 94px;
+}
+
+#carousel {
+    margin-top: 24px;
+    width: 960px;
+    height: 420px;
+}
+
+#steps {
+    width: 300px;
+    height: 400px;
+    display: block;
+    background: #ff8523;
+    position: relative;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    float: left;
+    margin: 10px;
+}
+
+#stepcontent {
+    overflow: hidden;
+    width: 300px;
+    height: 400px;
+}
+
+#screen1 div {
+    float: left;
+}
+
+#screen2 div {
+    float: left;
+}
+
+#screen3 div {
+    float: left;
+}
+
+#step1 {
+    margin: 0 auto;
+    width: 300px;
+    height: 400px;
+    background: url("../images/step1.jpg") #1a1915 top center no-repeat;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -khtml-border-radius: 5px;
+}
+
+#gradient {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%);
+    width: 300px;
+    height: 400px;
+    top: 0;
+    left: 0;
+    display: block;
+    position: absolute;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -khtml-border-radius: 5px;
+}
+
+#buttonstep1 {
+    width: 70px;
+    height: 20px;
+    margin: 0 auto;
+    background: #ff4e50;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    font: normal 10px Montserrat;
+    letter-spacing: 2px;
+    color: #fff;
+    display: table;
+    position: relative;
+    top: 229px;
+    left: 21px;
+}
+
+#buttonstep1 a {
+    font: normal 10px Montserrat;
+    letter-spacing: 2px;
+    color: #fff;
+    padding-top: 2px;
+    padding-left: 3px;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+#step1text1 {
+    width: 86%;
+    height: 55px;
+    font: bold 24px Montserrat;
+    color: #fff;
+    display: block;
+    position: relative;
+    top: 244px;
+    left: 19px;
+}
+
+#step1text2 {
+    width: 86%;
+    height: 52px;
+    font: normal 14px Roboto;
+    color: #cccccc;
+    line-height: 16px;
+    display: block;
+    position: relative;
+    top: 259px;
+    left: 20px;
+}
+
+#step2 {
+    margin: 0 auto;
+    width: 300px;
+    height: 400px;
+    background: url("../images/step2.jpg") #1a1915 top center no-repeat;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -khtml-border-radius: 5px;
+}
+
+#buttonstep2 {
+    width: 70px;
+    height: 20px;
+    margin: 0 auto;
+    background: #ff4e50;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    font: normal 10px Montserrat;
+    letter-spacing: 2px;
+    color: #fff;
+    display: table;
+    position: relative;
+    top: 259px;
+    left: 20px;
+}
+
+#buttonstep2 a {
+    font: normal 10px Montserrat;
+    letter-spacing: 2px;
+    color: #fff;
+    padding-top: 2px;
+    padding-left: 4px;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+#step2text1 {
+    width: 86%;
+    height: 55px;
+    font: bold 24px Montserrat;
+    color: #fff;
+    display: block;
+    position: relative;
+    top: 274px;
+    left: 19px;
+}
+
+#step2text2 {
+    width: 86%;
+    height: 52px;
+    font: normal 14px Roboto;
+    color: #cccccc;
+    line-height: 16px;
+    display: block;
+    position: relative;
+    top: 259px;
+    left: 20px;
+}
+
+#step3 {
+    margin: 0 auto;
+    width: 300px;
+    height: 400px;
+    background: url("../images/step3.jpg") #1a1915 top center no-repeat;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -khtml-border-radius: 5px;
+}
+
+#buttonstep3 {
+    width: 70px;
+    height: 20px;
+    margin: 0 auto;
+    background: #ff4e50;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    font: normal 10px Montserrat;
+    letter-spacing: 2px;
+    color: #fff;
+    display: table;
+    position: relative;
+    top: 230px;
+    left: 20px;
+}
+
+#buttonstep3 a {
+    font: normal 10px Montserrat;
+    letter-spacing: 2px;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+#step3text1 {
+    width: 86%;
+    height: 55px;
+    font: bold 24px Montserrat;
+    color: #fff;
+    display: block;
+    position: relative;
+    top: 245px;
+    left: 20px;
+}
+
+#step3text2 {
+    width: 86%;
+    height: 52px;
+    font: normal 14px Roboto;
+    color: #cccccc;
+    line-height: 16px;
+    display: block;
+    position: relative;
+    top: 259px;
+    left: 20px;
+}
+
+#prev1 {
+    width: 30px;
+    height: 55px;
+    background: url("../images/prev.png");
+    top: 153px;
+    left: 21px;
+    display: block;
+    position: absolute;
+    float: left;
+    cursor: pointer;
+}
+
+#next1 {
+    width: 30px;
+    height: 55px;
+    background: url("../images/next.png");
+    top: 153px;
+    left: 249px;
+    display: block;
+    position: absolute;
+    float: left;
+    cursor: pointer;
+}
+
+#prev2 {
+    width: 30px;
+    height: 55px;
+    background: url("../images/prev.png");
+    top: 153px;
+    left: 21px;
+    display: block;
+    position: absolute;
+    float: left;
+    cursor: pointer;
+}
+
+#next2 {
+    width: 30px;
+    height: 55px;
+    background: url("../images/next.png");
+    top: 153px;
+    left: 249px;
+    display: block;
+    position: absolute;
+    float: left;
+    cursor: pointer;
+}
+
+#prev3 {
+    width: 30px;
+    height: 55px;
+    background: url("../images/prev.png");
+    top: 153px;
+    left: 21px;
+    display: block;
+    position: absolute;
+    float: left;
+    cursor: pointer;
+}
+
+#next3 {
+    width: 30px;
+    height: 55px;
+    background: url("../images/next.png");
+    top: 153px;
+    left: 249px;
+    display: block;
+    position: absolute;
+    float: left;
+    cursor: pointer;
+}
+
+#partners {
+    margin-top: 85px;
+    margin-bottom: 30px;
+    width: 960px;
+    height: 300px;
+}
+
+#partners h2 {
+    margin-bottom: 22px;
+}
+
+#partner1 {
+    width: 220px;
+    height: 240px;
+    margin: 10px;
+    float: left;
+}
+
+#partner1img {
+    margin: 0 auto;
+    width: 122px;
+    height: 122px;
+    background: url("../images/partner1.jpg");
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -khtml-border-radius: 50%;
+    position: relative;
+}
+
+#partner1ico {
+    width: 32px;
+    height: 32px;
+    background: url("../images/ico1.png") #ff4e50 no-repeat center 7px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -khtml-border-radius: 50%;
+    border: 4px #fff solid;
+    right: -3px;
+    bottom: -3px;
+    display: block;
+    position: absolute;
+}
+
+#partner1text1 {
+    font: bold 14px Montserrat;
+    color: #333333;
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 12px;
+}
+
+#partner1text2 {
+    font: normal 14px Roboto;
+    color: #666666;
+    line-height: 17px;
+    text-align: center;
+}
+
+#partner2 {
+    width: 220px;
+    height: 240px;
+    margin: 10px;
+    float: left;
+}
+
+#partner2img {
+    margin: 0 auto;
+    width: 122px;
+    height: 122px;
+    background: url("../images/partner2.jpg");
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -khtml-border-radius: 50%;
+    position: relative;
+}
+
+#partner2ico {
+    width: 32px;
+    height: 32px;
+    background: url("../images/ico2.png") #1cd7ad no-repeat center 6px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -khtml-border-radius: 50%;
+    border: 4px #fff solid;
+    right: -3px;
+    bottom: -3px;
+    display: block;
+    position: absolute;
+}
+
+#partner2text1 {
+    height: 16px;
+    font: bold 14px Montserrat;
+    color: #333333;
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 12px;
+}
+
+#partner2text2 {
+    height: 16px;
+    font: normal 14px Roboto;
+    color: #666666;
+    line-height: 17px;
+    text-align: center;
+}
+
+#partner3 {
+    width: 220px;
+    height: 240px;
+    margin: 10px;
+    float: left;
+}
+
+#partner3img {
+    margin: 0 auto;
+    width: 122px;
+    height: 122px;
+    background: url("../images/partner3.jpg");
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -khtml-border-radius: 50%;
+    position: relative;
+}
+
+#partner3ico {
+    width: 32px;
+    height: 32px;
+    background: url("../images/ico3.png") #ffa507 no-repeat 10px center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -khtml-border-radius: 50%;
+    border: 4px #fff solid;
+    right: -3px;
+    bottom: -3px;
+    display: block;
+    position: absolute;
+}
+
+#partner3text1 {
+    height: 16px;
+    font: bold 14px Montserrat;
+    color: #333333;
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 12px;
+}
+
+#partner3text2 {
+    height: 16px;
+    font: normal 14px Roboto;
+    color: #666666;
+    line-height: 17px;
+    text-align: center;
+}
+
+#partner4 {
+    width: 220px;
+    height: 240px;
+    margin: 10px;
+    float: left;
+}
+
+#partner4img {
+    margin: 0 auto;
+    width: 122px;
+    height: 122px;
+    background: url("../images/partner4.jpg");
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -khtml-border-radius: 50%;
+    position: relative;
+}
+
+#partner4ico {
+    width: 32px;
+    height: 32px;
+    background: url("../images/ico4.png") #4e73db no-repeat 7px center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -khtml-border-radius: 50%;
+    border: 4px #fff solid;
+    right: -3px;
+    bottom: -3px;
+    display: block;
+    position: absolute;
+}
+
+#partner4text1 {
+    height: 16px;
+    font: bold 14px Montserrat;
+    color: #333333;
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 12px;
+}
+
+#partner4text2 {
+    height: 16px;
+    font: normal 14px Roboto;
+    color: #666666;
+    line-height: 17px;
+    text-align: center;
+}
+
+#buttonpartners {
+    width: 188px;
+    height: 36px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -khtml-border-radius: 40px;
+    border: 2px solid #ff4e50;
+    font: bold 14px Montserrat;
+    color: #ff4e50;
+    display: table;
+}
+
+#buttonpartners a {
+    font: bold 14px Montserrat;
+    color: #ff4e50;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+#ideas {
+    margin-top: 97px;
+    width: 960px;
+    height: 1040px;
+}
+
+#ideas h2 {
+    margin-bottom: 24px;
+}
+
+#ideas p {
+    font: bold 22px Montserrat;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    position: relative;
+}
+
+#ideasimg1 {
+    width: 300px;
+    height: 310px;
+    background: url("../images/ideasimg1.jpg") #333333;
+    float: left;
+    display: table;
+    margin: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    position: relative;
+}
+
+#ideasimg2 {
+    width: 300px;
+    height: 310px;
+    background: url("../images/ideasimg2.jpg") #333333;
+    float: left;
+    display: table;
+    margin: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    position: relative;
+}
+
+#ideasimg3 {
+    width: 300px;
+    height: 310px;
+    background: url("../images/ideasimg3.jpg") #333333;
+    float: left;
+    display: table;
+    margin: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    position: relative;
+}
+
+#ideasimg4 {
+    width: 300px;
+    height: 310px;
+    background: url("../images/ideasimg4.jpg") #333333;
+    float: left;
+    display: table;
+    margin: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    position: relative;
+}
+
+#ideasimg5 {
+    width: 620px;
+    height: 310px;
+    background: url("../images/ideasimg5.jpg") #333333;
+    float: left;
+    display: table;
+    margin: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    position: relative;
+}
+
+#ideasimg6 {
+    width: 620px;
+    height: 310px;
+    background: url("../images/ideasimg6.jpg") #333333;
+    float: left;
+    display: table;
+    margin: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    position: relative;
+}
+
+#ideasimg7 {
+    width: 300px;
+    height: 310px;
+    background: url("../images/ideasimg7.jpg") #333333;
+    float: left;
+    display: table;
+    margin: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    position: relative;
+}
+
+#bg333 {
+    width: 100%;
+    height: 100%;
+    background: #333333;
+    opacity: 0.3;
+    filter: alpha(Opacity=30);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    position: absolute;
+}
+
+#searchpartners {
+    margin-top: 86px;
+    margin-bottom: 97px;
+}
+
+#searchpartners h2 {
+    margin-bottom: 30px;
+}
+
+#searchpartners form {
+    text-align: center;
+}
+
+#searchpartnerstext {
+    font: normal 18px Roboto;
+    color: #333333;
+    text-align: center;
+    margin-bottom: 34px;
+}
+
+#searchenter {
+    font: normal 14px Roboto;
+    color: #999999;
+    text-align: left;
+    width: 218px;
+    height: 18px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    box-shadow: 0 1px 0 0 #cccccc;
+    padding: 10px;
+    margin: 3px;
+}
+
+#searchpartnersbutton {
+    width: 160px;
+    height: 40px;
+    margin: 0 auto;
+    background: #ff4e50;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    font: bold 14px Montserrat;
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+}
+
+#footerline {
+    border-top: 4px solid #ff4e50;
+    margin-bottom: 36px;
+}
+
+#footertext1 {
+    font: bold 16px Montserrat;
+    color: #ff4e50;
+    height: 100%;
+    letter-spacing: 1px;
+    float: left;
+}
+
+#column {
+    float: left;
+    min-height: 100px;
+    margin-left: 94px;
+}
+
+#column ul li {
+    margin-bottom: 4px;
+    list-style: none;
+}
+
+#column h3 {
+    font: bold 14px Montserrat;
+    color: #333333;
+    margin-bottom: 14px;
+}
+
+#column a {
+    font: normal 14px Roboto;
+    color: #666666;
+}
+
+#footertext2 {
+    font: bold 10px Montserrat;
+    color: #cccccc;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 1px;
+    margin-right: -1px;
+    right: 0;
+    position: absolute;
+}
+
+#designlogo {
+    width: 110px;
+    height: 24px;
+    right: 0;
+    margin-top: 21px;
+    position: absolute;
+}
+
+#footer {
+    width: 940px;
+    height: 165px;
+    margin: 0 auto;
+    position: relative;
+}
+
+@media only screen and (max-width: 991px) {
+    #text1 {
+        font: bold 20px Montserrat;
+        color: #fff;
+        margin-top: 46px;
+        margin-left: 48px;
+        letter-spacing: 1px;
+        float: left;
+    }
+
+    #auth {
+        width: 160px;
+        height: 40px;
+        margin-top: 38px;
+        margin-right: 35px;
+        float: right;
+        display: block;
+    }
+
+    #content {
+        width: 768px;
+        margin: 0 auto;
+    }
+
+    #carousel {
+        margin-top: 24px;
+        width: 768px;
+        height: 420px;
+    }
+
+    #steps {
+        width: 236px;
+        height: 400px;
+        display: block;
+        background: #ff8523;
+        position: relative;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -khtml-border-radius: 5px;
+        float: left;
+        margin: 10px;
+    }
+
+    #stepcontent {
+        overflow: hidden;
+        width: 236px;
+        height: 400px;
+    }
+
+    #step1 {
+        margin: 0 auto;
+        width: 236px;
+        height: 400px;
+        background: url("../images/step1.jpg") #1a1915 top center no-repeat;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -khtml-border-radius: 5px;
+    }
+
+    #gradient {
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%);
+        width: 236px;
+        height: 400px;
+        top: 0;
+        left: 0;
+        display: block;
+        position: absolute;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -khtml-border-radius: 5px;
+    }
+
+    #step2 {
+        margin: 0 auto;
+        width: 236px;
+        height: 400px;
+        background: url("../images/step2.jpg") #1a1915 top center no-repeat;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -khtml-border-radius: 5px;
+    }
+
+    #step3 {
+        margin: 0 auto;
+        width: 236px;
+        height: 400px;
+        background: url("../images/step3.jpg") #1a1915 top center no-repeat;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -khtml-border-radius: 5px;
+    }
+
+    #buttonstep1 {
+        top: 212px;
+        left: 20px;
+    }
+
+    #step1text1 {
+        top: 227px;
+        left: 19px;
+    }
+
+    #step1text2 {
+        top: 244px;
+        left: 18px;
+    }
+
+    #buttonstep2 {
+        top: 259px;
+        left: 20px;
+    }
+
+    #step2text1 {
+        top: 274px;
+        left: 19px;
+    }
+
+    #step2text2 {
+        top: 259px;
+        left: 20px;
+    }
+
+    #buttonstep3 {
+        top: 212px;
+        left: 20px;
+    }
+
+    #step3text1 {
+        top: 227px;
+        left: 19px;
+    }
+
+    #step3text2 {
+        top: 244px;
+        left: 18px;
+    }
+
+    #prev1 {
+        width: 30px;
+        height: 55px;
+        background: url("../images/prev.png");
+        top: 41px;
+        left: 21px;
+        display: block;
+        position: absolute;
+        float: left;
+        cursor: pointer;
+    }
+
+    #next1 {
+        width: 30px;
+        height: 55px;
+        background: url("../images/next.png");
+        top: 41px;
+        left: 185px;
+        display: block;
+        position: absolute;
+        float: left;
+        cursor: pointer;
+    }
+
+    #prev2 {
+        width: 30px;
+        height: 55px;
+        background: url("../images/prev.png");
+        top: 41px;
+        left: 21px;
+        display: block;
+        position: absolute;
+        float: left;
+        cursor: pointer;
+    }
+
+    #next2 {
+        width: 30px;
+        height: 55px;
+        background: url("../images/next.png");
+        top: 41px;
+        left: 185px;
+        display: block;
+        position: absolute;
+        float: left;
+        cursor: pointer;
+    }
+
+    #prev3 {
+        width: 30px;
+        height: 55px;
+        background: url("../images/prev.png");
+        top: 41px;
+        left: 21px;
+        display: block;
+        position: absolute;
+        float: left;
+        cursor: pointer;
+    }
+
+    #next3 {
+        width: 30px;
+        height: 55px;
+        background: url("../images/next.png");
+        top: 41px;
+        left: 185px;
+        display: block;
+        position: absolute;
+        float: left;
+        cursor: pointer;
+    }
+
+    #partners {
+        margin: 85px auto 30px;
+        width: 480px;
+        height: 560px;
+    }
+
+    #ideas {
+        margin-top: 97px;
+        width: 768px;
+        height: 1040px;
+    }
+
+    #ideasimg1 {
+        width: 236px;
+        height: 310px;
+        background: url("../images/ideasimg1.jpg") #333333;
+        float: left;
+        display: table;
+        margin: 10px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -khtml-border-radius: 5px;
+        position: relative;
+    }
+
+    #ideasimg2 {
+        width: 236px;
+        height: 310px;
+        background: url("../images/ideasimg2.jpg") #333333;
+        float: left;
+        display: table;
+        margin: 10px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -khtml-border-radius: 5px;
+        position: relative;
+    }
+
+    #ideasimg2 p {
+        width: 200px;
+        left: -18px;
+        margin-left: -118px;
+    }
+
+    #ideasimg3 {
+        width: 236px;
+        height: 310px;
+        background: url("../images/ideasimg3.jpg") #333333;
+        float: left;
+        display: table;
+        margin: 10px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -khtml-border-radius: 5px;
+        position: relative;
+    }
+
+    #ideasimg4 {
+        width: 236px;
+        height: 310px;
+        background: url("../images/ideasimg4.jpg") #333333;
+        float: left;
+        display: table;
+        margin: 10px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -khtml-border-radius: 5px;
+        position: relative;
+    }
+
+    #ideasimg5 {
+        width: 492px;
+        height: 310px;
+        background: url("../images/ideasimg5.jpg") #333333;
+        float: left;
+        display: table;
+        margin: 10px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -khtml-border-radius: 5px;
+        position: relative;
+    }
+
+    #ideasimg6 {
+        width: 492px;
+        height: 310px;
+        background: url("../images/ideasimg6.jpg") #333333;
+        float: left;
+        display: table;
+        margin: 10px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -khtml-border-radius: 5px;
+        position: relative;
+    }
+
+    #ideasimg7 {
+        width: 236px;
+        height: 310px;
+        background: url("../images/ideasimg7.jpg") #333333;
+        float: left;
+        display: table;
+        margin: 10px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -khtml-border-radius: 5px;
+        position: relative;
+    }
+
+    #column {
+        margin-left: 97px;
+    }
+
+    #footer {
+        width: 690px;
+        height: 165px;
+        margin: 0 auto;
+        position: relative;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    #header {
+        margin: -12px auto;
+        max-width: 1138px;
+        height: 552px;
+        background: url("../images/bgm.png") #1a1915 top center no-repeat;
+    }
+
+    #text1 {
+        width: 180px;
+        height: 40px;
+        float: none;
+        position: absolute;
+        left: 50%;
+        margin-left: -90px;
+        margin-top: 184px;
+    }
+
+    #text2 {
+        font: bold 30px Montserrat;
+    }
+
+    #text3 {
+        font: bold 18px Roboto;
+        width: 230px;
+        margin: -15px auto;
+        line-height: 21px;
+    }
+
+    #buttonfind {
+        width: 280px;
+        margin: -3px auto;
+    }
+
+    #auth {
+        width: 160px;
+        height: 40px;
+        display: block;
+        float: none;
+        position: absolute;
+        left: 50%;
+        margin-left: -80px;
+        margin-top: 32px;
+    }
+
+    #content {
+        width: 320px;
+        margin: 0 auto;
+    }
+
+    #holidayblock {
+        width: 300px;
+        height: 242px;
+        left: 50%;
+        position: absolute;
+        margin-left: -150px;
+        margin-top: 235px;
+    }
+
+    #carousel {
+        margin: 10px auto;
+        width: 310px;
+        height: 740px;
+    }
+
+    #steps {
+        width: 300px;
+        height: 240px;
+        display: block;
+        background: #ff8523;
+        position: relative;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -khtml-border-radius: 5px;
+        float: left;
+        margin: 5px;
+    }
+
+    #stepcontent {
+        overflow: hidden;
+        width: 300px;
+        height: 240px;
+    }
+
+    #step1 {
+        margin: 0 auto;
+        width: 300px;
+        height: 240px;
+        background: url("../images/step1m.jpg") #1a1915 top center no-repeat;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -khtml-border-radius: 5px;
+    }
+
+    #gradient {
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%);
+        width: 300px;
+        height: 240px;
+        top: 0;
+        left: 0;
+        display: block;
+        position: absolute;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -khtml-border-radius: 5px;
+    }
+
+    #step2 {
+        margin: 0 auto;
+        width: 300px;
+        height: 240px;
+        background: url("../images/step2m.jpg") #1a1915 top center no-repeat;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -khtml-border-radius: 5px;
+    }
+
+    #step3 {
+        margin: 0 auto;
+        width: 300px;
+        height: 240px;
+        background: url("../images/step3m.jpg") #1a1915 top center no-repeat;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -khtml-border-radius: 5px;
+    }
+
+    #prev1 {
+        display: none;
+    }
+
+    #next1 {
+        display: none;
+    }
+
+    #prev2 {
+        display: none;
+    }
+
+    #next2 {
+        display: none;
+    }
+
+    #prev3 {
+        display: none;
+    }
+
+    #next3 {
+        display: none;
+    }
+
+    #howitworks {
+        margin-top: 47px;
+    }
+
+    #buttonstep1 {
+        top: 68px;
+    }
+
+    #step1text1 {
+        top: 82px;
+    }
+
+    #step1text2 {
+        top: 98px;
+        width: 87%;
+    }
+
+    #buttonstep2 {
+        top: 98px;
+    }
+
+    #step2text1 {
+        top: 112px;
+    }
+
+    #step2text2 {
+        width: 86%;
+        top: 98px;
+    }
+
+    #buttonstep3 {
+        top: 68px;
+    }
+
+    #step3text1 {
+        top: 82px;
+    }
+
+    #step3text2 {
+        width: 87%;
+        top: 98px;
+    }
+
+    #partners {
+        margin: 38px auto 20px;
+        width: 320px;
+        height: 1040px;
+    }
+
+    #partners h2 {
+        margin: 0 auto 15px;
+        width: 300px;
+    }
+
+    #partner1 {
+        width: 220px;
+        height: 240px;
+        margin: 10px auto 10px;
+        float: none;
+    }
+
+    #partner2 {
+        width: 220px;
+        height: 240px;
+        margin: 10px auto 10px;
+        float: none;
+    }
+
+    #partner3 {
+        width: 220px;
+        height: 240px;
+        margin: 10px auto 10px;
+        float: none;
+    }
+
+    #partner4 {
+        width: 220px;
+        height: 240px;
+        margin: 10px auto 10px;
+        float: none;
+    }
+
+    #buttonpartners {
+        width: 280px;
+    }
+
+    #ideas {
+        margin: 34px auto;
+        width: 310px;
+        height: 967px;
+    }
+
+    #ideas h2 {
+        margin-bottom: 8px;
+    }
+
+    #ideasimg1 {
+        width: 300px;
+        height: 120px;
+        background: url("../images/ideasimg1m.jpg") #333333;
+        float: left;
+        display: table;
+        margin: 5px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -khtml-border-radius: 5px;
+        position: relative;
+    }
+
+    #ideasimg2 {
+        width: 300px;
+        height: 120px;
+        background: url("../images/ideasimg2m.jpg") #333333;
+        float: left;
+        display: table;
+        margin: 5px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -khtml-border-radius: 5px;
+        position: relative;
+    }
+
+    #ideasimg3 {
+        width: 300px;
+        height: 120px;
+        background: url("../images/ideasimg3m.jpg") #333333;
+        float: left;
+        display: table;
+        margin: 5px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -khtml-border-radius: 5px;
+        position: relative;
+    }
+
+    #ideasimg4 {
+        width: 300px;
+        height: 120px;
+        background: url("../images/ideasimg4m.jpg") #333333;
+        float: left;
+        display: table;
+        margin: 5px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -khtml-border-radius: 5px;
+        position: relative;
+    }
+
+    #ideasimg5 {
+        width: 300px;
+        height: 120px;
+        background: url("../images/ideasimg5m.jpg") #333333;
+        float: left;
+        display: table;
+        margin: 5px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -khtml-border-radius: 5px;
+        position: relative;
+    }
+
+    #ideasimg6 {
+        width: 300px;
+        height: 120px;
+        background: url("../images/ideasimg6m.jpg") #333333;
+        float: left;
+        display: table;
+        margin: 5px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -khtml-border-radius: 5px;
+        position: relative;
+    }
+
+    #ideasimg7 {
+        width: 300px;
+        height: 120px;
+        background: url("../images/ideasimg7m.jpg") #333333;
+        float: left;
+        display: table;
+        margin: 5px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -khtml-border-radius: 5px;
+        position: relative;
+    }
+
+    #searchpartners h2 {
+        margin-bottom: 7px;
+    }
+
+    #searchpartnerstext {
+        margin-bottom: 12px;
+    }
+
+    #searchenter {
+        width: 258px;
+        margin: 3px 3px 10px 3px;
+    }
+
+    #searchpartnersbutton {
+        width: 280px;
+    }
+
+    #searchpartners {
+        margin-top: 4px;
+        margin-bottom: 40px;
+    }
+
+    #footerline {
+        margin-bottom: 18px;
+    }
+
+    #footer {
+        width: 320px;
+        height: 190px;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    #footertext1 {
+        margin: 0 auto;
+        float: none;
+        text-align: center;
+        height: 15px;
+    }
+
+    #column {
+        float: none;
+        min-height: 35px;
+        margin: 0 auto;
+        text-align: center;
+        position: relative;
+    }
+
+    #column ul {
+        position: relative;
+        left: 50%;
+        float: left;
+    }
+
+    #column ul li {
+        margin: 0 7px;
+        list-style: none;
+        float: left;
+        position: relative;
+        left: -50%;
+    }
+
+    #column h3 {
+        font: bold 14px Montserrat;
+        color: #333333;
+        margin-bottom: inherit;
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    #column a {
+        font: normal 14px Roboto;
+        color: #666666;
+    }
+
+    #footertext2 {
+        float: none;
+        position: absolute;
+        margin-right: 14px;
+    }
+
+    #designlogo {
+        width: 110px;
+        height: 24px;
+        float: none;
+        right: inherit;
+        margin: 21px auto 0;
+        position: absolute;
+    }
+
+    #footerlogo {
+        width: 110px;
+        height: 45px;
+        position: absolute;
+        left: 50%;
+        margin-left: -55px;
+        margin-top: -6px;
+        margin-bottom: 18px;
+    }
+
+}
